@@ -2,12 +2,12 @@ import { makeAutoObservable } from 'mobx';
 
 export interface IButton {
   text: string | number;
-  callback: () => void ;
+  callback: () => void;
 }
 
 export enum buttonPosition {
   left,
-  right
+  right,
 }
 
 class ButtonControlStore {

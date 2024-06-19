@@ -9,12 +9,7 @@ export interface ItemOptionsResolverProps {
   onClickOption?: (value?: string) => void;
 }
 
-export const ItemOptionsResolver: FC<ItemOptionsResolverProps> = ({
-  options,
-  isError,
-  isLoading,
-  onClickOption,
-}) => {
+export const ItemOptionsResolver: FC<ItemOptionsResolverProps> = ({ options, isError, isLoading, onClickOption }) => {
   return (
     <>
       {options?.map((item, index) => {
