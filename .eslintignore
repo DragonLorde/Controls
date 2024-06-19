@@ -1,0 +1,8 @@
+node_modules
+build
+coverage
+certs
+*.generated.*
+craco.config.ts
+scripts
+dist
